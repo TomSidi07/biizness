@@ -304,3 +304,17 @@ a {
     font-size: 1.7rem;
   }
 }
+
+/* media  */
+.media {
+  display: flex;
+}
+.media__image {
+  margin-top: 1rem;
+}
+.media__body {
+  margin: 0 2rem;
+}
+.media .media__title {
+  margin-top: 0;
+}
