@@ -1,3 +1,9 @@
-body {
-  background-color: #c41921;
+:root {
+  --color-primary: #192a56;
+  --color-secondary: #40739e;
+  --color-accent: #c23616;
+  --color-success: #4cd137;
+  --color-warning: #fbc531;
+  --color-headings: #dcdde1;
+  --color-body: #7f8fa6;
 }
