@@ -6,6 +6,8 @@
   --color-warning: #fbc531;
   --color-headings: #273c75;
   --color-body: #192a56;
+  --color-border: #ccc;
+  --border-radius: 30px;
 }
 *,
 *::after,
@@ -186,17 +188,48 @@ a {
   width: 100%;
 }
 .btn--outline {
-    background-color: transparent;
-    color: var(--color-body);
-    border: 2px solid var(--color-body);
+  background-color: transparent;
+  color: var(--color-body);
+  border: 2px solid var(--color-body);
 }
-.btn--outline:hover{
-    background-color: var(--color-body);
-    color: #fff;
-    
+.btn--outline:hover {
+  background-color: var(--color-body);
+  color: #fff;
 }
 @media screen and (min-width: 1024px) {
   .btn {
+    font-size: 1.5rem;
+  }
+}
+/* input */
+.input {
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+  color: var(--color-headings);
+  display: inline-block;
+  font-size: 2rem;
+  outline: 0;
+  padding: 1.5rem 3.5rem;
+}
+::placeholder {
+  color: #cdcbd7;
+}
+.input-group {
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: 0px 0px 40px #00000027;
+  display: flex;
+}
+.input-group .input {
+  border: 0;
+  flex-grow: 1;
+  padding: 1.5rem 1rem;
+}
+.input-group .btn {
+  margin: 4px;
+}
+@media screen and (min-width: 1024px) {
+  .input {
     font-size: 1.5rem;
   }
 }
