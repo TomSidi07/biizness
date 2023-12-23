@@ -1,7 +1,7 @@
 :root {
   --color-primary: #40739e;
   --color-secondary: #3d8dd8;
-  --color-accent: #ee3005;
+  --color-accent: #ce2c07;
   --color-success: #4cd137;
   --color-warning: #fbc531;
   --color-headings: #273c75;
@@ -600,7 +600,7 @@ a {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .hero{
+  .hero {
     padding-top: 0;
   }
   .hero__content {
